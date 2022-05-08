@@ -1,10 +1,24 @@
-import React from 'react';
+import React, {FC, ReactNode} from 'react';
+import SideBar from '../SideBar';
+import { LayoutContainer, MainContainer, MainWrapper, SidebarContainer } from './Layout.element';
 
-const Layout = () => {
+type Props = {
+    children?: ReactNode
+  }
+
+const Layout:FC<Props> = ({children}) => {
   return (
-    <div>
-      
-    </div>
+    <LayoutContainer>
+        <SidebarContainer>
+
+      <SideBar/>
+        </SidebarContainer>
+        <MainContainer>
+            <MainWrapper>
+                {children}
+            </MainWrapper>
+        </MainContainer>
+    </LayoutContainer>
   );
 }
 
