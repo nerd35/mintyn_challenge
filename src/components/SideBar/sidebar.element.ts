@@ -20,7 +20,7 @@ letter-spacing: 0.2px;
 color: #FFFFFF;
 `
 export const SidebarTitle = styled.h1`
-    font-family: 'Segoe UI';
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-weight: 400;
 font-size: 11px;
 line-height: 15px;
@@ -40,12 +40,13 @@ align-items: center;
 
 export const MenuIcon = styled.img``
 export const MenuText = styled.span`
-    font-family: 'Segoe UI';
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-weight: 400;
 font-size: 11px;
 line-height: 15px;
 color: #647787;
 margin-left: 15px;
+cursor: pointer;
 `
 export const InActiveMenuItem = styled.div`
 padding: 11px 42px;

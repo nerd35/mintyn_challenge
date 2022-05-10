@@ -28,7 +28,7 @@ export const SearchContainer = styled.div`
 `;
 export const SearchImg = styled.img``;
 export const SearchInput = styled.input`
-  font-family: "Segoe UI";
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
@@ -38,7 +38,7 @@ export const SearchInput = styled.input`
 `;
 
 export const HeaderLink = styled.h1`
-font-family: 'Segoe UI';
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-weight: 400;
 font-size: 14px;
 line-height: 19px;
@@ -57,7 +57,7 @@ export const ProfileInfoContainer = styled.div`
 `
 
 export const ProfileGreeting = styled.span`
-    font-family: 'Segoe UI';
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-weight: 400;
 font-size: 10px;
 line-height: 13px;
@@ -67,7 +67,7 @@ text-align: center;
 color: #647787;
 `
 export const ProfileName = styled.span`
-    font-family: 'Segoe UI';
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-weight: 400;
 font-size: 14px;
 line-height: 19px;
